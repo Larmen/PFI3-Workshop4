@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="25dip"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/postHeadline"
+    android:gravity="center_horizontal"
+    android:paddingBottom="25dip"
+    />
+    
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/messageHelper"	
+	/>
+	
+	<EditText
+	android:id="@+id/messageField"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:lines="3"
+	android:maxLength="256"
+	android:gravity="top"
+	android:capitalize="sentences"
+	
+	/>
+	
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/tagHelper"	
+	/>
+	
+	<EditText
+	android:id="@+id/tagField"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:lines="1"
+	android:maxLength="32"
+	/>
+	
+    
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+<Button android:text="Post" android:id="@+id/post_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+<Button android:text="Read wall" android:id="@+id/read_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"></Button>
+</LinearLayout>
+</LinearLayout>

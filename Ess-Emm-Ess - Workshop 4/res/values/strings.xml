@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="postHeadline">ESS-EMM-ESS MESSAGING SERVICE</string>
+    <string name="app_name">EssEmmEss - Workshop 4</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="loginScreenHeadline">ESS-EMM-ESS MESSAGING SERVICE</string>
+    <string name="messageHelper">Message</string>
+    <string name="tagHelper">Tag</string>
+</resources>
